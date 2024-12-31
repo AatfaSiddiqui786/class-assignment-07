@@ -2,10 +2,7 @@ import Link from 'next/link';
 
 const Navbar= () => {
   return (
-    
-    <div className="min-h-screen flex  flex-col justify-center items-center">
-    
-    
+    <div className="flex flex-col justify-center items-center min-h-0 lg:min-h-screen">    
     
     <h1 className="text-4xl text-white font-bold text-center mb-8">Aatfa Siddiqui</h1>
 
