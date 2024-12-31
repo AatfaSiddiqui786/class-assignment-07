@@ -46,7 +46,7 @@ const Contact = () => {
           <h2 className="text-3xl font-bold text-white  mb-4">You Can Contact Me Here</h2>
           <div className=" bg-opacity-70 p-6 border-2 border-white rounded-lg shadow-lg flex items-center gap-3 w-full mb-4 md:w-auto">
             <FaEnvelope className="text-blue-900 text-xl font-extrabold" />
-            <span className="text-lg font-bold text-white">aatfasiddiqui@gmail.com</span>
+            <span className=" text-md lg:text-lg font-bold text-white">aatfasiddiqui@gmail.com</span>
           </div>
         </div>
 

@@ -1,5 +1,4 @@
 'use client'
-
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -19,8 +18,8 @@ export default function Navbar() {
     const navItems = [
         { label: "Home", href: "/component/Home" },
         { label: "About", href: "/component/About" },
-        { label: "client-side fatching", href: "/component/ClientSide" },
-        { label: "server-side fatching", href: "/component/server-side" },
+        { label: "Client Side", href: "/component/ClientSide" },
+        { label: "Server Side", href: "/component/server-side" },
         { label: "Contact", href: "/component/contact" },
     ];
 
@@ -34,7 +33,7 @@ export default function Navbar() {
                     width={50}
                     height={50}
                 />
-                <h3 className="ml-4 mt-3 underline text-white">DATA FETCHING</h3>
+                <h3 className="ml-4  test-xs md:text-sm lg:text-2xl underline text-white">DATA FETCHING</h3>
             </div>
 
             {/* Hamburger Menu Button for Mobile */}
@@ -53,7 +52,7 @@ export default function Navbar() {
                 } md:flex md:space-x-6 list-none  md:bg-transparent md:static top-16 left-0 pb-6 md:pb-0 pt-3 md:pt-0 w-full md:w-auto px-4 md:px-0`}
             >
                 {navItems.map((nav, i) => (
-                    <li key={i} className="font-bold text-white text-lg hover:text-blue-900 pl-6 pt-3">
+                    <li key={i} className="font-bold text-white test-xs md:text-sm lg:text-2xl hover:text-blue-900 pl-6 pt-3">
                         <Link href={nav.href} onClick={closeMenu}>
                             {nav.label}
                         </Link>
